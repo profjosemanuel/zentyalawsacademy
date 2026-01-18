@@ -12,7 +12,7 @@ network:
               - 172.31.66.235/16
             routes:
               - to: default
-              via: 172.31.64.1
+                via: 172.31.64.1
             dhcp6: true
             match:
                 macaddress: 16:ff:e8:03:66:b5
